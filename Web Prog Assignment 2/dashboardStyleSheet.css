@@ -1,0 +1,21 @@
+header{
+    text-align: center;
+    font-size: xxx-large;
+    font-style:italic;
+    text-decoration: underline;
+    background-color: lightskyblue;
+    border:solid 2pt black;
+    padding:10px;
+}
+table{
+    padding:10px;
+    margin:auto;
+}
+td{
+    padding:10px;
+    background-color: lightcyan;
+}
+th{
+    padding:10px;
+    background-color: lightskyblue;
+}

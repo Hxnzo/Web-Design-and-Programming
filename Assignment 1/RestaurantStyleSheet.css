@@ -1,0 +1,55 @@
+table
+{
+    border-collapse: collapse;
+}
+
+h3
+{
+    font-weight: bold;
+}
+
+.survey
+{
+    border:solid 3pt lightskyblue;
+    padding: 15pt;
+    text-align: left;
+}
+
+#info
+{
+    text-align: center;
+    border:solid 3pt lightskyblue;
+    padding: 15pt;
+}
+
+.button
+{
+    text-align: center;
+    font-weight: bolder;
+    padding: 15pt;
+}
+
+.submit
+{
+    background-color: lightskyblue;
+}
+
+th
+{
+    border:solid 3pt lightskyblue;
+    background-color: lightskyblue;
+}
+
+p
+{
+    font-size:30px;
+    font-style:oblique;
+    border:solid 3pt lightskyblue;
+    background-color: lightskyblue;
+}
+
+.center 
+{
+    margin-left: auto;
+    margin-right: auto;
+}

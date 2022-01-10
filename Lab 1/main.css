@@ -1,0 +1,15 @@
+#identification
+{
+    text-align:center;
+}
+
+body
+{
+    font-family: 'Oswald', sans-serif;
+    background-color: #FF7F7F;
+}
+
+table,td
+{
+border: 2px solid black;
+}

@@ -1,0 +1,26 @@
+body
+{
+    background-color: #C63D0F;
+} 
+
+fieldset
+{
+     background-color:  #3B3738;
+     color: white;
+     font-size: 20px;
+     text-align: center;
+     border-style: dashed;
+}
+
+legend
+{
+     font-size: 14px;
+}
+
+h1
+{
+     color: #FDF3E7;
+     text-align: center; 
+     color: #FDF3E7;
+     text-align: center;
+}

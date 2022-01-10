@@ -1,0 +1,98 @@
+<!doctype html>
+
+<html>
+    <head>
+        <title>Restaurant Rating</title>
+        <link rel="stylesheet" type="text/css" href="RestaurantStyleSheet.css">
+    </head>
+
+    <body>
+
+        <table class = "center">
+            <form  action="RestaurantRating.html" method = "get">
+                <tr>                
+                    <td id = "info">
+                        <img src="stars.jpg" width = "auto" height="150">
+                        <h1>Thank You For Dining With Us Today!</h1>
+                        <h4>To Improve Your Dining Experience<br>Please Complete This Small Survey For 10% Off Your Next Visit</h4>
+                    </td>
+                </tr>
+
+                <tr>
+                    <th>
+                        <p>Customer Survey</p>
+                    </th>
+                </tr>
+
+                <tr>
+                    <td class = "survey">
+
+                        <label><h3>1) How Was The Food?</h3>
+                            <input name="radio-buttons" type="radio" value = "1" required/>Very Bad
+                            <input name="radio-buttons" type="radio" value = "1" />Bad
+                            <input name="radio-buttons" type="radio" value = "1" />Okay
+                            <input name="radio-buttons" type="radio" value = "1" />Good
+                            <input name="radio-buttons" type="radio" value = "1" />Very Good
+                        </label>
+
+                        <br><br>
+
+                        <label><h3>2) How Was The Menu Variety?</h3>
+                            <input name="radio-buttons2" type="radio" value = "2" required/>Very Bad
+                            <input name="radio-buttons2" type="radio" value = "2" />Bad
+                            <input name="radio-buttons2" type="radio" value = "2" />Okay
+                            <input name="radio-buttons2" type="radio" value = "2" />Good
+                            <input name="radio-buttons2" type="radio" value = "2" />Very Good
+                        </label>
+
+                        <br><br>
+
+                        <label><h3>3) How Was The Service?</h3>
+                            <input name="radio-buttons3" type="radio" value = "3" required/>Very Bad
+                            <input name="radio-buttons3" type="radio" value = "3" />Bad
+                            <input name="radio-buttons3" type="radio" value = "3" />Okay
+                            <input name="radio-buttons3" type="radio" value = "3" />Good
+                            <input name="radio-buttons3" type="radio" value = "3" />Very Good
+                        </label>
+
+                        <br><br>
+
+                        <label><h3>4) How Was The Seating Arrangement?</h3>
+                            <input name="radio-buttons4" type="radio" value = "4" required/>Very Bad
+                            <input name="radio-buttons4" type="radio" value = "4" />Bad
+                            <input name="radio-buttons4" type="radio" value = "4" />Okay
+                            <input name="radio-buttons4" type="radio" value = "4" />Good
+                            <input name="radio-buttons4" type="radio" value = "4" />Very Good
+                        </label>
+                        
+                    </td>    
+                </tr>
+
+                <tr>
+                    <th>
+                        <p>Your Information</p>
+                    </th>
+                </tr>
+                <tr>    
+                    <td class = "survey">
+
+                        <h4>
+                            Name: <input type="text" placeholder="Enter Name" required/>
+                            &emsp;&emsp;&emsp;&emsp;
+                            Date: <input type="date" placeholder="Date" required>
+                        </h4>
+                        <h4>
+                            Phone: <input type="tel" maxlength = "10" minlength="10" placeholder="Number" required>
+                            &emsp;&emsp;&emsp;&emsp;
+                            Email: <input type="email" placeholder="Email" required>
+                        </h4> 
+
+                        <div class = "button">
+                            <input class = "submit" type = "submit">                           
+                        </div>
+                    </td>
+                </tr>
+            </form>
+        </table>
+    </body>
+</html>

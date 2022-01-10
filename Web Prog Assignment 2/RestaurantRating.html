@@ -1,0 +1,105 @@
+<!doctype html>
+
+<html>
+    <head>
+        <title>Restaurant Rating</title>
+        <link rel="stylesheet" type="text/css" href="RestaurantStyleSheet.css">
+    </head>
+
+    <body>
+        <table class = "center">
+            <form method = "Post" action="RestaurantRatingSurvey.php">
+                <tr>                
+                    <td id = "info">
+                        <img src="stars.jpg" width = "auto" height="150">
+                        <h1>Thank You For Dining With Us Today!</h1>
+                        <h4>To Improve Your Dining Experience<br>Please Complete This Small Survey For 10% Off Your Next Visit</h4>
+                    </td>
+                </tr>
+
+                <tr>
+                    <th>
+                        <p>Customer Survey</p>
+                    </th>
+                </tr>
+
+                <tr>
+                    <td class = "survey">
+
+                        <label><h3>1) How Was The Food?</h3>
+                            <input name="radio-buttons" type="radio" value = "1" required/>1
+                            <input name="radio-buttons" type="radio" value = "2" />2
+                            <input name="radio-buttons" type="radio" value = "3" />3
+                            <input name="radio-buttons" type="radio" value = "4" />4
+                            <input name="radio-buttons" type="radio" value = "5" />5
+                        </label>
+
+                        <br><br>
+
+                        <label><h3>2) How Was The Menu Variety?</h3>
+                            <input name="radio-buttons2" type="radio" value = "1" required/>1
+                            <input name="radio-buttons2" type="radio" value = "2" />2
+                            <input name="radio-buttons2" type="radio" value = "3" />3
+                            <input name="radio-buttons2" type="radio" value = "4" />4
+                            <input name="radio-buttons2" type="radio" value = "5" />5
+                        </label>
+
+                        <br><br>
+
+                        <label><h3>3) How Was The Service?</h3>
+                            <input name="radio-buttons3" type="radio" value = "1" required/>1
+                            <input name="radio-buttons3" type="radio" value = "2" />2
+                            <input name="radio-buttons3" type="radio" value = "3" />3
+                            <input name="radio-buttons3" type="radio" value = "4" />4
+                            <input name="radio-buttons3" type="radio" value = "5" />5
+                        </label>
+
+                        <br><br>
+
+                        <label><h3>4) How Was The Atmosphere?</h3>
+                            <input name="radio-buttons4" type="radio" value = "1" required/>1
+                            <input name="radio-buttons4" type="radio" value = "2" />2
+                            <input name="radio-buttons4" type="radio" value = "3" />3
+                            <input name="radio-buttons4" type="radio" value = "4" />4
+                            <input name="radio-buttons4" type="radio" value = "5" />5
+                        </label>
+                        
+                        <br><br>
+                        
+                        <label><h3>Please leave any comments below:</h3>
+                            <input name="comments" type="text" required/>
+                        </label>
+                        
+                    </td>    
+                </tr>
+
+                <tr>
+                    <th>
+                        <p>Your Information</p>
+                    </th>
+                </tr>
+                <tr>    
+                    <td class = "survey">
+
+                        <h4>
+                            First Name: <input type="text" placeholder="Enter First Name" name = "fname" required/>
+                        </h4>
+                        <h4>
+                            Last Name: <input type="text" placeholder="Enter Last Name" name = "lname" required/>
+                        </h4>
+
+                        <h4>
+                            Phone: <input type="tel" maxlength = "10" minlength="10" placeholder="Number" name = "phone" required>
+                            Email: <input type="email" placeholder="Email" name = "email" required>
+                            Date: <input type="date" placeholder="Date" name = "calender" required>
+                        </h4> 
+
+                        <div class = "button">
+                            <input class = "submit" type = "submit" >                           
+                        </div>
+                    </td>
+                </tr>
+            </form>
+        </table>
+    </body>
+</html>
